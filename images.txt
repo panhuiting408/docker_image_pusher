@@ -5,8 +5,11 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 
-gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:c61042001b1f21c5d06bdee9b42b5e4524e4370e09d4f46347226f06db29ba0f
-gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:0fb5a4245aa4737d443658754464cd0a076de959fe14623fb9e9d31318ccce24
-gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:5fb22b052e6bc98a1a6bbb68c0282ddb50744702acee6d83110302bc990666e9
-gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:5e9236452d89363957d4e7e249d57740a8fcd946aed23f8518d94962bf440250
+gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:2abda5baf78e30888fa0c5ca8442b32d613fe0854c3a473da4511a64922cb30d
+gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook@sha256:e6ceb71d79fc3b5bab843fd213f5cf752f258aa70fbdb3f3046b9944e6c94200
+gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping@sha256:c78a29b606fbfd9781e49abb547ac592a2a59fd554e504d5b5b9d25ec3a59ee9
+gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:8ce127dd294a646b67200beae1321197b4a5de9d5b42daf9206849dba06d4197
+gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:d23cc5fceab552f4924bef1b38af850d6ad29046f9e4d6f0e1e562cfec350746
+gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:6fec2cb19a70b7da56d23178d3e6d2478fd053a83efed120851788a6b1704050
+gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:f0e506209c784eb65fe79c1d5b6c329c33c9df2b2f8bce44fb4566d12457c54d
 
