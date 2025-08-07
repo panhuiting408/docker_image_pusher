@@ -5,5 +5,5 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 
-nginx-slim:0.8
+registry.k8s.io/nginx-slim:1.0
 fluent/fluent-bit:1.5
