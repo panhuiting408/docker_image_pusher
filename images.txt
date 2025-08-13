@@ -5,5 +5,6 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 
-gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:d6cb6bee0acca917dd2ab8fce49dfe4b13786da5a0bb54a2830c01e8007e4cf3
-gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook@sha256:8a0f28b3328095bd9d5bf1ca6ea63ae9fa171aabee9949cdf3b3b20f11959c03
+quay.io/jetstack/cert-manager-cainjector:v1.11.4
+quay.io/jetstack/cert-manager-controller:v1.11.4
+quay.io/jetstack/cert-manager-webhook:v1.11.4
