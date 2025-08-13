@@ -5,6 +5,5 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 
-docker.io/istio/pilot:1.18.5
-docker.io/istio/proxyv2:1.18.5
-busybox:1.28
+gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:d6cb6bee0acca917dd2ab8fce49dfe4b13786da5a0bb54a2830c01e8007e4cf3
+gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook@sha256:8a0f28b3328095bd9d5bf1ca6ea63ae9fa171aabee9949cdf3b3b20f11959c03
