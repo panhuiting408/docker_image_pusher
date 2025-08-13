@@ -5,5 +5,4 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 
-gcr.io/knative-releases/knative.dev/net-certmanager/cmd/controller@sha256:e9c78f52efcfa592dad2abf922dc0a724809a07ca5c5bddd7c772aa9ce2dc651
-gcr.io/knative-releases/knative.dev/net-certmanager/cmd/webhook@sha256:77787b995bfe50ce750d432080e078ef86ddd8ec70cac68959a92a0972055679
+gcr.io/knative-releases/knative.dev/serving/cmd/default-domain@sha256:ca5fb330cc2b0abc1ec8ecf56aa4c19eaa4a0c1d8de3f7f992ede21985dae6b5
