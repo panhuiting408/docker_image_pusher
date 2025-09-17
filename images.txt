@@ -4,6 +4,7 @@
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
+
 gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:7e76260703b2ef866f178e6de196fba5b6125fc34182352a8ad10d3e357e0e59
 gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook@sha256:c8a79d608d3e2f2b0d654043584c306e589954477dfd7923ac0b7585bd3980f6
 gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping@sha256:4fab9aa8a2e0300ca25782b3e78213ee0fdb717bb55d2cc4f67a9a041775cbfe
