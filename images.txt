@@ -5,11 +5,6 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 
-docker.io/busybox:latest
-quay.io/prometheus/alertmanager:v0.34.1
-#quay.io/prometheus-operator/prometheus-operator:<Chart.appVersion>
-#quay.io/prometheus-operator/prometheus-config-reloader:<Chart.appVersion>
-quay.io/thanos/thanos:v0.42.4
-#quay.io/prometheus-operator/admission-webhook:<Chart.appVersion>
-ghcr.io/jkroepke/kube-webhook-certgen:1.11.0
-quay.io/prometheus/prometheus:v3.15.0-distroless
+quay.io/kiwigrid/k8s-sidecar:2.14.1
+docker.io/grafana/grafana:13.2.4-distroless
+registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.20.0
