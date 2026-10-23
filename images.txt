@@ -7,9 +7,9 @@
 
 docker.io/busybox:latest
 quay.io/prometheus/alertmanager:v0.34.1
-quay.io/prometheus-operator/prometheus-operator:<Chart.appVersion>
-quay.io/prometheus-operator/prometheus-config-reloader:<Chart.appVersion>
+#quay.io/prometheus-operator/prometheus-operator:<Chart.appVersion>
+#quay.io/prometheus-operator/prometheus-config-reloader:<Chart.appVersion>
 quay.io/thanos/thanos:v0.42.4
-quay.io/prometheus-operator/admission-webhook:<Chart.appVersion>
+#quay.io/prometheus-operator/admission-webhook:<Chart.appVersion>
 ghcr.io/jkroepke/kube-webhook-certgen:1.11.0
 quay.io/prometheus/prometheus:v3.15.0-distroless
