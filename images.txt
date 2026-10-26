@@ -5,6 +5,5 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 
-quay.io/kiwigrid/k8s-sidecar:2.14.1
-docker.io/grafana/grafana:13.2.4-distroless
 registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.20.0
+
